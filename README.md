@@ -36,12 +36,16 @@ endpoints from a script, a laptop, or a CI job.
 ## Install
 
 ```sh
-pip install certwatch          # from PyPI (once published)
-# or, from source:
+# recommended (isolated CLI install):
+pipx install git+https://github.com/GlyphSH/certwatch.git
+
+# or with pip:
 pip install git+https://github.com/GlyphSH/certwatch.git
 ```
 
 Requires Python 3.9+ and [`cryptography`](https://pypi.org/project/cryptography/).
+
+> A PyPI release (`pip install certwatch`) is planned — not yet published.
 
 ## Usage
 
